@@ -1,0 +1,20 @@
+.navegacao {
+    background-color: #23272f;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #a7a6a6;
+    font-size: 20px;
+}
+
+.linkSelecionado {
+    color: #FFFFFF;
+}

@@ -1,0 +1,93 @@
+.exercicio {
+    background-color: transparent;
+    color: #23272F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 40px 25px;
+    margin-top: -20px;
+    list-style: none;
+    margin-bottom: -20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+}
+
+.exercicio img {
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00000059;
+}
+
+.exercicio h2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.link-exercicio {
+    text-decoration: none;
+}
+
+.cards button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 8px 15px;
+    border: 2px solid #23272F;
+    background-color: #23272F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cards button:hover {
+    border: 2px solid #23272F;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #23272F;
+}
+
+.gym-botao {
+    font-size: 24px;
+}
+
+@media (max-width: 1000px) {
+    .exercicio {
+        padding: 0 10px 25px;
+    }
+
+    .cards {
+        margin-bottom: 40px;
+    }
+
+    .cards button {
+        font-size: 15px;
+    }
+
+    .gym-botao {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .exercicio h2 {
+        font-size: 28px;
+    }
+
+    .gym-botao {
+        font-size: 28px;
+    }
+
+    .cards button {
+        font-size: 20px;
+    }
+}

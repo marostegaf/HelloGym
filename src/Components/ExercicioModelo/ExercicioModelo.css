@@ -1,0 +1,55 @@
+.exercicio-modelo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 8%;
+    color: #23272F;
+}
+
+.exercicio-modelo p img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.titulo {
+    font-size: 48px;
+    padding: 10px 0;
+}
+
+.exercicio-modelo p {
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.exercicio-modelo li{
+    margin-left: 25px;
+}
+
+
+@media (max-width: 1000px) {
+    .exercicio-modelo h1 {
+        font-size: 28px;
+    }
+
+    .exercicio-modelo h3 {
+        font-size: 24px;
+    } 
+
+    .titulo {
+        font-size: 48px;
+        padding: 10px 0;
+    }
+    
+    .exercicio-modelo p {
+        font-size: 24px;
+        font-weight: 200;
+    }
+    
+    .exercicio-modelo li{
+        margin-left: 25px;
+    }
+
+    .exercicio-modelo p img {
+        width: 100%;
+    }
+}

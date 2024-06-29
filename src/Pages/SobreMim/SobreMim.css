@@ -1,0 +1,56 @@
+.sobremim {
+    display: flex;
+    justify-content: space-around;
+    padding: 36.5px 0;
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+}
+.hello img {
+    width: 70px;
+}
+
+.sobremim span {
+    font-weight: 500;
+}
+
+.sobremim h3 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.sobremim p {
+    color: #000000;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+}
+
+.minha-foto {
+    height: 350px;
+    border: 2px solid #23272F;
+}
+
+@media (max-width: 1000px) {
+    .sobremim p {
+        width: 100%;
+    }
+    
+    .minha-foto {
+        display: none;
+    }
+}
+
+@media (min-width: 1700px) {
+    .sobremim h3 {
+        color: #000000;
+    }
+    
+    .sobremim p {
+        font-size: 24px;
+    }
+}

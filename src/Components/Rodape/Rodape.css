@@ -1,0 +1,25 @@
+.rodape {
+    background-color: #23272F;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px 0;
+}
+
+.github {
+    font-size: 25px;
+    color: #FFFFFF;
+    transition: transform 0.1s;
+}
+
+.github:hover {
+    transform: scale(1.10);
+}
+
+
+.rodape h2 {
+    margin-top: 1.5px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
