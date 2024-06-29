@@ -55,4 +55,8 @@
     .conteudo p {
         text-align: center;
     }
+
+    .em-branco {
+        margin-bottom: 30%;
+    }
 }

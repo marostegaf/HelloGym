@@ -26,6 +26,27 @@
 }
 
 
+@media (min-width: 1700px) {
+    .exercicio-modelo h1 {
+        font-size: 38px;
+    }
+
+    .exercicio-modelo h3 {
+        font-size: 28px;
+    } 
+
+    .exercicio-modelo p {
+        font-size: 26px;
+        font-weight: 200;
+    }
+
+    .titulo {
+        font-size: 48px;
+        padding: 10px 0;
+    }
+    
+}
+
 @media (max-width: 1000px) {
     .exercicio-modelo h1 {
         font-size: 28px;
